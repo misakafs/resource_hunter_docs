@@ -7,7 +7,7 @@ export default defineConfig({
   description: "不同平台资源猎人",
   lastUpdated: true,
   sitemap: {
-    hostname: 'https://resource_hunter.tatakai.top'
+    hostname: 'https://resource-hunter-docs.pages.dev'
   },
   themeConfig: {
 
