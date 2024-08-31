@@ -17,21 +17,20 @@
 
 ## 接口定义
 
+> [!TIP]
 > 下面只是接口定义和抽象类都是建议
 
-#### 发现页接口 - QuerySakuhin
+### 发现页接口 - QuerySakuhin
 
 > 分页获取平台影视作品列表
 
 ###### 请求参数
 
 ```typescript
-// 第一种方式: 不同平台所需的参数和参数形式都有不同，不同平台参数需要继承下面的抽象类，实现下面两个方法
+// 第一种方式: 不同平台所需的参数和参数形式都有不同，不同平台参数需要继承下面的抽象类，实现下面方法
 abstract class QuerySakuhinRequest {
     // 返回对应的平台
     abstract getPlatform(): string;
-    // 将参数转成map形式
-    abstract toMap(): Record<string, any>;
 }
 function QuerySakuhin(req: QuerySakuhinRequest):QuerySakuhinResponse{};
 
@@ -55,19 +54,17 @@ class QuerySakuhinResponse {
 class SakuhinItem {}
 ```
 
-#### 搜索页接口 - SearchSakuhin
+### 搜索页接口 - SearchSakuhin
 
 > 根据关键字分页搜索影视作品列表
 
 ###### 请求参数
 
 ```typescript
-// 第一种方式: 不同平台所需的参数和参数形式都有不同，不同平台参数需要继承下面的抽象类，实现下面两个方法
+// 第一种方式: 不同平台所需的参数和参数形式都有不同，不同平台参数需要继承下面的抽象类，实现下面方法
 abstract class SearchSakuhinRequest {
     // 返回对应的平台
     abstract getPlatform(): string;
-    // 将参数转成map形式
-    abstract toMap(): Record<string, any>;
 }
 function SearchSakuhin(req: SearchSakuhinRequest):SearchSakuhinResponse{};
 
@@ -91,19 +88,17 @@ class SearchSakuhinResponse {
 class SakuhinItem {}
 ```
 
-#### 详情页接口 - GetSakuhinDetail
+### 详情页接口 - GetSakuhinDetail
 
 > 获取单个影视作品的详情信息
 
 ###### 请求参数
 
 ```typescript
-// 第一种方式: 不同平台所需的参数和参数形式都有不同，不同平台参数需要继承下面的抽象类，实现下面两个方法
+// 第一种方式: 不同平台所需的参数和参数形式都有不同，不同平台参数需要继承下面的抽象类，实现下面方法
 abstract class GetSakuhinDetailRequest {
     // 返回对应的平台
     abstract getPlatform(): string;
-    // 将参数转成map形式
-    abstract toMap(): Record<string, any>;
 }
 function GetSakuhinDetail(req: GetSakuhinDetailRequest):GetSakuhinDetailResponse{};
 
@@ -122,19 +117,17 @@ class GetSakuhinDetailResponse {
 class SakuhinItem {}
 ```
 
-#### 剧集页接口 - GetSakuhinVideos
+### 剧集页接口 - GetSakuhinVideos
 
 > 获取某部影视作品下的所有分集列表
 
 ###### 请求参数
 
 ```typescript
-// 第一种方式: 不同平台所需的参数和参数形式都有不同，不同平台参数需要继承下面的抽象类，实现下面两个方法
+// 第一种方式: 不同平台所需的参数和参数形式都有不同，不同平台参数需要继承下面的抽象类，实现下面方法
 abstract class GetSakuhinVideosRequest {
     // 返回对应的平台
     abstract getPlatform(): string;
-    // 将参数转成map形式
-    abstract toMap(): Record<string, any>;
 }
 function GetSakuhinVideos(req: GetSakuhinVideosRequest):GetSakuhinVideosResponse{};
 
