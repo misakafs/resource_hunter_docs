@@ -42,6 +42,7 @@ export default defineConfig({
     },
     nav: [
       { text: '关于', link: '/about' },
+      { text: 'JSONPath', link: 'https://www.json.cn/jsonpath/' },
     ],
     sidebar: [
       {
