@@ -36,6 +36,10 @@ export default defineConfig({
         }
       }
     },
+    outline: {
+      label: '页面导航',
+      level: [2, 4],
+    },
     nav: [
       { text: '关于', link: '/about' },
     ],
