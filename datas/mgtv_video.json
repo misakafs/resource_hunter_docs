@@ -1,0 +1,873 @@
+{
+  "data": {
+    "total": 52,
+    "related": {
+      "img": "http://0img.hitv.com/preview/sp_images/2024/04/26/202404261134434786843.jpg",
+      "isIntact": "0",
+      "corner": [
+        {
+          "area": "rightUp",
+          "flag": "6",
+          "color": "#B362F2",
+          "font": "荐"
+        }
+      ],
+      "t1": "妖神记 第八季",
+      "t2": "最强妖灵师重回巅峰",
+      "url": "http://www.mgtv.com/b/642957/",
+      "video_id": "0"
+    },
+    "series": [
+      {
+        "playcnt": "8666.8万",
+        "img": "http://1img.hitv.com/preview/sp_images/2024/04/15/202404151746215663652.jpg_220x125.jpg",
+        "isIntact": "3",
+        "paymark": 0,
+        "id": "321671",
+        "t1": "妖神记 第一季",
+        "url": "http://www.mgtv.com/b/321671/"
+      },
+      {
+        "playcnt": "2.0亿",
+        "img": "http://1img.hitv.com/preview/sp_images/2024/04/15/202404151744570432783.jpg_220x125.jpg",
+        "isIntact": "3",
+        "paymark": 0,
+        "id": "325759",
+        "t1": "妖神记 第三季",
+        "url": "http://www.mgtv.com/b/325759/"
+      },
+      {
+        "playcnt": "1.8亿",
+        "img": "http://1img.hitv.com/preview/sp_images/2024/04/15/202404151754426677610.jpg_220x125.jpg",
+        "isIntact": "3",
+        "paymark": 0,
+        "id": "335264",
+        "t1": "妖神记 第四季",
+        "url": "http://www.mgtv.com/b/335264/"
+      },
+      {
+        "playcnt": "133.6万",
+        "img": "http://1img.hitv.com/preview/sp_images/2024/04/15/202404151750237088089.jpg_220x125.jpg",
+        "isIntact": "3",
+        "paymark": 0,
+        "id": "642954",
+        "t1": "妖神记 第五季",
+        "url": "http://www.mgtv.com/b/642954/"
+      },
+      {
+        "playcnt": "152.2万",
+        "img": "http://1img.hitv.com/preview/sp_images/2024/04/15/202404151758285204498.jpg_220x125.jpg",
+        "isIntact": "3",
+        "paymark": 0,
+        "id": "642955",
+        "t1": "妖神记 第六季",
+        "url": "http://www.mgtv.com/b/642955/"
+      },
+      {
+        "playcnt": "2202.4万",
+        "img": "http://0img.hitv.com/preview/sp_images/2024/04/26/202404261134434786843.jpg_220x125.jpg",
+        "isIntact": "3",
+        "paymark": 1,
+        "id": "642957",
+        "t1": "妖神记 第八季",
+        "url": "http://www.mgtv.com/b/642957/"
+      }
+    ],
+    "count": 52,
+    "total_page": 2,
+    "short": [],
+    "list": [
+      {
+        "t4": "第1集",
+        "img": "http://1img.hitv.com/preview/sp_images/2024/04/25/202404251551464649476.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876670.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第1集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "1",
+        "t2": "破碎神格",
+        "next_id": "20876671",
+        "t3": "妖神记第七季 第1集",
+        "ts": "2024-04-25 14:25:08.0",
+        "video_id": "20876670"
+      },
+      {
+        "t4": "第2集",
+        "img": "https://3vimg.hitv.com/100/2404/2514/5640/AQ6Zuxcy9VX/285062519562952704.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876671.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第2集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "2",
+        "t2": "一同前行",
+        "next_id": "20876672",
+        "t3": "妖神记第七季 第2集",
+        "ts": "2024-04-25 14:25:11.0",
+        "video_id": "20876671"
+      },
+      {
+        "t4": "第3集",
+        "img": "https://2vimg.hitv.com/100/2404/2514/5039/AQ6Zuxcy9VX/285061001875021824.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876672.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第3集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "3",
+        "t2": "龙墟界域",
+        "next_id": "20876673",
+        "t3": "妖神记第七季 第3集",
+        "ts": "2024-04-25 14:25:13.0",
+        "video_id": "20876672"
+      },
+      {
+        "t4": "第4集",
+        "img": "http://3img.hitv.com/preview/sp_images/2024/04/25/202404251553396244686.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876673.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第4集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "4",
+        "t2": "死灵之神",
+        "next_id": "20876674",
+        "t3": "妖神记第七季 第4集",
+        "ts": "2024-04-25 14:25:15.0",
+        "video_id": "20876673"
+      },
+      {
+        "t4": "第5集",
+        "img": "http://3img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876674/20240425155413464.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876674.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第5集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "5",
+        "t2": "法则羽翼",
+        "next_id": "20876675",
+        "t3": "妖神记第七季 第5集",
+        "ts": "2024-04-25 14:25:17.0",
+        "video_id": "20876674"
+      },
+      {
+        "t4": "第6集",
+        "img": "http://3img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876675/20240425155500268.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876675.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第6集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "6",
+        "t2": "强夺法则",
+        "next_id": "20876676",
+        "t3": "妖神记第七季 第6集",
+        "ts": "2024-04-25 14:25:19.0",
+        "video_id": "20876675"
+      },
+      {
+        "t4": "第7集",
+        "img": "https://2vimg.hitv.com/100/2404/2514/4836/AQ6Zuxcy9VX/285060489048109057.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876676.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第7集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "7",
+        "t2": "剥夺神格",
+        "next_id": "20876677",
+        "t3": "妖神记第七季 第7集",
+        "ts": "2024-04-25 14:25:22.0",
+        "video_id": "20876676"
+      },
+      {
+        "t4": "第8集",
+        "img": "https://2vimg.hitv.com/100/2404/2514/4312/AQ6Zuxcy9VX/285059127682551808.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876677.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第8集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "8",
+        "t2": "教训教训",
+        "next_id": "20876678",
+        "t3": "妖神记第七季 第8集",
+        "ts": "2024-04-25 14:25:24.0",
+        "video_id": "20876677"
+      },
+      {
+        "t4": "第9集",
+        "img": "http://2img.hitv.com/preview/sp_images/2024/04/25/202404251556492686609.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876678.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第9集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "9",
+        "t2": "大门开启",
+        "next_id": "20876679",
+        "t3": "妖神记第七季 第9集",
+        "ts": "2024-04-25 14:25:26.0",
+        "video_id": "20876678"
+      },
+      {
+        "t4": "第10集",
+        "img": "https://2vimg.hitv.com/100/2404/2514/4827/AQ6Zuxcy9VX/285060449063809024.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876679.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第10集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "10",
+        "t2": "黑炎淬炼",
+        "next_id": "20876680",
+        "t3": "妖神记第七季 第10集",
+        "ts": "2024-04-25 14:25:28.0",
+        "video_id": "20876679"
+      },
+      {
+        "t4": "第11集",
+        "img": "https://1vimg.hitv.com/100/2404/2514/4321/AQ6Zuxcy9VX/285059168342134784.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876680.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第11集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "11",
+        "t2": "天麟妖兽",
+        "next_id": "20876681",
+        "t3": "妖神记第七季 第11集",
+        "ts": "2024-04-25 14:25:30.0",
+        "video_id": "20876680"
+      },
+      {
+        "t4": "第12集",
+        "img": "https://2vimg.hitv.com/100/2404/2514/4528/AQ6Zuxcy9VX/285059701231988736.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876681.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第12集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "12",
+        "t2": "灵魂法印",
+        "next_id": "20876650",
+        "t3": "妖神记第七季 第12集",
+        "ts": "2024-04-25 14:25:33.0",
+        "video_id": "20876681"
+      },
+      {
+        "t4": "第13集",
+        "img": "https://1vimg.hitv.com/100/2404/2515/0636/AQ6Zuxcy9VX/285065016499232768.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876650.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第13集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "13",
+        "t2": "挑选",
+        "next_id": "20876651",
+        "t3": "妖神记第七季 第13集",
+        "ts": "2024-04-25 14:24:05.0",
+        "video_id": "20876650"
+      },
+      {
+        "t4": "第14集",
+        "img": "http://4img.hitv.com/preview/sp_images/2024/04/25/202404251558451794217.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876651.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第14集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "14",
+        "t2": "将计就计",
+        "next_id": "20876652",
+        "t3": "妖神记第七季 第14集",
+        "ts": "2024-04-25 14:24:07.0",
+        "video_id": "20876651"
+      },
+      {
+        "t4": "第15集",
+        "img": "https://2vimg.hitv.com/100/2404/2515/0809/AQ6Zuxcy9VX/285065406408175616.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876652.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第15集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "15",
+        "t2": "一言为定",
+        "next_id": "20876653",
+        "t3": "妖神记第七季 第15集",
+        "ts": "2024-04-25 14:24:10.0",
+        "video_id": "20876652"
+      },
+      {
+        "t4": "第16集",
+        "img": "http://2img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876653/20240425160008384.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876653.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第16集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:24",
+        "contentType": "0",
+        "t1": "16",
+        "t2": "对峙",
+        "next_id": "20876654",
+        "t3": "妖神记第七季 第16集",
+        "ts": "2024-04-25 14:24:12.0",
+        "video_id": "20876653"
+      },
+      {
+        "t4": "第17集",
+        "img": "https://1vimg.hitv.com/100/2404/2515/0327/AQ6Zuxcy9VX/285064223770300416.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876654.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第17集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "17",
+        "t2": "胜负难分",
+        "next_id": "20876655",
+        "t3": "妖神记第七季 第17集",
+        "ts": "2024-04-25 14:24:14.0",
+        "video_id": "20876654"
+      },
+      {
+        "t4": "第18集",
+        "img": "https://0vimg.hitv.com/100/2404/2515/0607/AQ6Zuxcy9VX/285064894642118656.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876655.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第18集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "18",
+        "t2": "烛龙",
+        "next_id": "20876656",
+        "t3": "妖神记第七季 第18集",
+        "ts": "2024-04-25 14:24:16.0",
+        "video_id": "20876655"
+      },
+      {
+        "t4": "第19集",
+        "img": "https://1vimg.hitv.com/100/2404/2515/0132/AQ6Zuxcy9VX/285063741705695232.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876656.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第19集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "19",
+        "t2": "金蛋",
+        "next_id": "20876657",
+        "t3": "妖神记第七季 第19集",
+        "ts": "2024-04-25 14:24:18.0",
+        "video_id": "20876656"
+      },
+      {
+        "t4": "第20集",
+        "img": "http://2img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876657/20240425160209730.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876657.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第20集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "20",
+        "t2": "残魂",
+        "next_id": "20876658",
+        "t3": "妖神记第七季 第20集",
+        "ts": "2024-04-25 14:24:21.0",
+        "video_id": "20876657"
+      },
+      {
+        "t4": "第21集",
+        "img": "http://3img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876658/20240425160326704.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876658.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第21集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "21",
+        "t2": "本命火焰",
+        "next_id": "20876659",
+        "t3": "妖神记第七季 第21集",
+        "ts": "2024-04-25 14:24:23.0",
+        "video_id": "20876658"
+      },
+      {
+        "t4": "第22集",
+        "img": "https://2vimg.hitv.com/100/2404/2514/5920/AQ6Zuxcy9VX/285063190087610368.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876659.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第22集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:24",
+        "contentType": "0",
+        "t1": "22",
+        "t2": "拜师",
+        "next_id": "20876660",
+        "t3": "妖神记第七季 第22集",
+        "ts": "2024-04-25 14:24:25.0",
+        "video_id": "20876659"
+      },
+      {
+        "t4": "第23集",
+        "img": "https://1vimg.hitv.com/100/2404/2514/5807/AQ6Zuxcy9VX/285062882294751232.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876660.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第23集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "23",
+        "t2": "前世今生",
+        "next_id": "20876661",
+        "t3": "妖神记第七季 第23集",
+        "ts": "2024-04-25 14:24:27.0",
+        "video_id": "20876660"
+      },
+      {
+        "t4": "第24集",
+        "img": "http://2img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876661/20240425160538965.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876661.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第24集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "24",
+        "t2": "沙漠神宫",
+        "next_id": "20876662",
+        "t3": "妖神记第七季 第24集",
+        "ts": "2024-04-25 14:24:29.0",
+        "video_id": "20876661"
+      },
+      {
+        "t4": "第25集",
+        "img": "https://1vimg.hitv.com/100/2404/2514/5800/AQ6Zuxcy9VX/285062852018319360.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876662.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第25集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "25",
+        "t2": "昏迷",
+        "next_id": "20876663",
+        "t3": "妖神记第七季 第25集",
+        "ts": "2024-04-25 14:24:32.0",
+        "video_id": "20876662"
+      },
+      {
+        "t4": "第26集",
+        "img": "http://0img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876663/20240425161416677.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876663.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第26集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "26",
+        "t2": "敌袭",
+        "next_id": "20876664",
+        "t3": "妖神记第七季 第26集",
+        "ts": "2024-04-25 14:24:34.0",
+        "video_id": "20876663"
+      },
+      {
+        "t4": "第27集",
+        "img": "http://0img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876664/20240425161031346.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876664.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第27集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "27",
+        "t2": "弱点",
+        "next_id": "20876665",
+        "t3": "妖神记第七季 第27集",
+        "ts": "2024-04-25 14:24:36.0",
+        "video_id": "20876664"
+      },
+      {
+        "t4": "第28集",
+        "img": "http://3img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876665/20240425161309593.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876665.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第28集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "28",
+        "t2": "天雷诛杀",
+        "next_id": "20876666",
+        "t3": "妖神记第七季 第28集",
+        "ts": "2024-04-25 14:24:38.0",
+        "video_id": "20876665"
+      },
+      {
+        "t4": "第29集",
+        "img": "http://1img.hitv.com/preview/sp_images/2024/4/25/dongman/642956/20876666/20240425161521472.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876666.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第29集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "29",
+        "t2": "雨夜",
+        "next_id": "20876667",
+        "t3": "妖神记第七季 第29集",
+        "ts": "2024-04-25 14:24:40.0",
+        "video_id": "20876666"
+      },
+      {
+        "t4": "第30集",
+        "img": "https://1vimg.hitv.com/100/2404/2514/5318/AQ6Zuxcy9VX/285061672236765184.jpg_220x125.jpg",
+        "src_clip_id": "642956",
+        "isnew": "0",
+        "isvip": "0",
+        "url": "/b/642956/20876667.html",
+        "isIntact": "1",
+        "corner": [
+          {
+            "area": "rightDown",
+            "flag": "5",
+            "color": "#FFFFFF",
+            "font": "第30集"
+          }
+        ],
+        "clip_id": "642956",
+        "time": "07:25",
+        "contentType": "0",
+        "t1": "30",
+        "t2": "离别",
+        "next_id": "20876668",
+        "t3": "妖神记第七季 第30集",
+        "ts": "2024-04-25 14:24:42.0",
+        "video_id": "20876667"
+      }
+    ],
+    "current_page": 1,
+    "info": {
+      "title": "妖神记 第七季",
+      "type": "0",
+      "isvip": "0",
+      "desc": ""
+    }
+  },
+  "code": 200,
+  "msg": "",
+  "seqid": "fa8b8a5b0ea44e51a139ee144fac8179",
+  "timestamp": 1725204546306
+}
