@@ -54,6 +54,7 @@ export default defineConfig({
           { text: '爱奇艺', link: '/platform/iqiyi' },
           { text: '芒果视频', link: '/platform/mgtv' },
           { text: '优酷视频', link: '/platform/youku' },
+          { text: '看韩剧', link: '/platform/kancc' },
         ]
       }
     ],

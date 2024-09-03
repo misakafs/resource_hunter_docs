@@ -2,7 +2,7 @@
 import MGTV from '../../components/MGTV.vue'
 </script>
 
-# 芒果视频
+# [芒果视频](https://www.mgtv.com/)
 
 ## 枚举值
 
