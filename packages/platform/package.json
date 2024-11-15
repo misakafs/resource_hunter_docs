@@ -1,0 +1,21 @@
+{
+  "name": "platform",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "gen0": "bun run ./scripts/gen0.ts",
+    "gen1": "bun run ./scripts/gen1.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/crypto-js": "^4.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "jsonpathly": "^2.0.1",
+    "yaml": "^2.6.0"
+  }
+}
