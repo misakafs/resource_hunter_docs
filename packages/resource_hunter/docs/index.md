@@ -34,7 +34,6 @@ features:
     title: 灵活的扩展能力
     details: 支持灵活扩展，新增平台或功能时，遵循统一接口设计，轻松集成。
 ---
-
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
