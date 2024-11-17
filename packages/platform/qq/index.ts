@@ -1,6 +1,6 @@
-import Platform, from '../platform.ts'
+import Platform from '../platform.ts'
 import config from '../config'
-import { request, base64Decode, base64Encode } from '../utils/index.ts'
+import { request, base64Decode, base64Encode, g } from '../utils/index.ts'
 import type {
     DetailParam,
     DetailResult,
@@ -12,9 +12,9 @@ import type {
     ParseResult,
     SearchParam,
     SearchResult,
-} from "../models";
+} from '../models'
 
-class QQ extends Platform {
+export class QQ extends Platform {
     private readonly userAgent: string
 
     constructor(userAgent: string = '') {
@@ -71,26 +71,50 @@ class QQ extends Platform {
             return null
         }
 
+        const nextPageContextJsonPath = '$.data.next_page_context'
 
+        const next = base64Encode(JSON.stringify(g(result, nextPageContextJsonPath)))
 
-        return null;
+        const itemJsonPath =
+            '$.data.module_list_datas[-1].module_datas[0].item_data_lists.item_datas..item_params[?(@.item_type=="2")]'
+
+        const list = g<any[]>(result, itemJsonPath)
+
+        const items = []
+
+        list.forEach((value) => {
+            items.push({
+                sid: value.cid,
+                vid: '',
+                title: value.title,
+                subtitle: value.second_title,
+                cht: value.new_pic_hz,
+                cvt: value.new_pic_vt,
+                link: `https://v.qq.com/x/cover/${value.cid}.html`,
+            })
+        })
+
+        return {
+            page: {
+                next: next,
+            },
+            items: items,
+        }
     }
 
     public async detail(param: DetailParam): Promise<DetailResult | null> {
-        return null;
+        return null
     }
 
     public async episode(param: EpisodeParam): Promise<EpisodeResult | null> {
-        return null;
+        return null
     }
 
     public async parse(param: ParseParam): Promise<ParseResult | null> {
-        return null;
+        return null
     }
 
     public async search(param: SearchParam): Promise<SearchResult | null> {
-        return null;
+        return null
     }
-
-
 }

@@ -9,7 +9,7 @@ import type {
     ParseResult,
     SearchParam,
     SearchResult,
-} from "./models";
+} from './models'
 
 abstract class Platform {
     // 发现接口

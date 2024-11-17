@@ -1,9 +1,29 @@
-import {DefaultTheme, defineConfig} from 'vitepress'
+import { DefaultTheme, defineConfig } from 'vitepress'
 
 const nav = (): DefaultTheme.NavItem[] => {
     return [
         { text: '指南', link: '/guide/define' },
-        { text: '平台', link: '/platform/qq' },
+        {
+            text: '平台',
+            items: [
+                {
+                    text: '腾讯视频',
+                    link: 'https://github.com/misakafs/resource_hunter_docs/blob/main/packages/platform/qq/index.ts',
+                },
+                {
+                    text: '爱奇艺',
+                    link: 'https://github.com/misakafs/resource_hunter_docs/blob/main/packages/platform/iqiyi/index.ts',
+                },
+                {
+                    text: '优酷视频',
+                    link: 'https://github.com/misakafs/resource_hunter_docs/blob/main/packages/platform/youku/index.ts',
+                },
+                {
+                    text: '芒果视频',
+                    link: 'https://github.com/misakafs/resource_hunter_docs/blob/main/packages/platform/mgtv/index.ts',
+                },
+            ],
+        },
         { text: 'JSONPath', link: 'https://www.json.cn/jsonpath/' },
         { text: 'Base64', link: 'https://base64.us/' },
         { text: '关于', link: '/about' },
@@ -11,7 +31,6 @@ const nav = (): DefaultTheme.NavItem[] => {
 }
 
 const sidebar = (): DefaultTheme.SidebarMulti => {
-
     return {
         '/guide/': {
             base: '/guide/',
@@ -19,38 +38,22 @@ const sidebar = (): DefaultTheme.SidebarMulti => {
                 {
                     text: '说明',
                     collapsed: false,
-                    items: [
-                        { text: '字段定义', link: 'define' },
-                    ]
+                    items: [{ text: '字段定义', link: 'define' }],
                 },
                 {
                     text: '接口定义',
                     collapsed: false,
                     items: [
                         { text: '发现接口', link: 'discover' },
-                        { text: '搜索接口', link: 'searcher' },
+                        { text: '搜索接口', link: 'search' },
                         { text: '详情接口', link: 'detail' },
                         { text: '剧集接口', link: 'episode' },
-                        { text: '解析接口', link: 'parser' }
-                    ]
-                }
-            ]
+                        { text: '解析接口', link: 'parse' },
+                        { text: '弹幕接口', link: 'danmu' },
+                    ],
+                },
+            ],
         },
-        '/platform/': {
-            base: '/platform/',
-            items: [
-                {
-                    text: '视频平台',
-                    collapsed: false,
-                    items: [
-                        { text: '腾讯视频', link: 'qq' },
-                        { text: '爱奇艺', link: 'iqiyi' },
-                        { text: '优酷视频', link: 'youku' },
-                        { text: '芒果视频', link: 'mgtv' }
-                    ]
-                }
-            ]
-        }
     }
 }
 
@@ -73,14 +76,14 @@ export default defineConfig({
                 translations: {
                     button: {
                         buttonText: '搜索文档',
-                        buttonAriaLabel: '搜索文档'
+                        buttonAriaLabel: '搜索文档',
                     },
                     modal: {
                         searchBox: {
                             resetButtonTitle: '清除查询条件',
                             resetButtonAriaLabel: '清除查询条件',
                             cancelButtonText: '取消',
-                            cancelButtonAriaLabel: '取消'
+                            cancelButtonAriaLabel: '取消',
                         },
                         startScreen: {
                             recentSearchesTitle: '搜索历史',
@@ -88,27 +91,27 @@ export default defineConfig({
                             saveRecentSearchButtonTitle: '保存至搜索历史',
                             removeRecentSearchButtonTitle: '从搜索历史中移除',
                             favoriteSearchesTitle: '收藏',
-                            removeFavoriteSearchButtonTitle: '从收藏中移除'
+                            removeFavoriteSearchButtonTitle: '从收藏中移除',
                         },
                         errorScreen: {
                             titleText: '无法获取结果',
-                            helpText: '你可能需要检查你的网络连接'
+                            helpText: '你可能需要检查你的网络连接',
                         },
                         footer: {
                             selectText: '选择',
                             navigateText: '切换',
                             closeText: '关闭',
-                            searchByText: '搜索提供者'
+                            searchByText: '搜索提供者',
                         },
                         noResultsScreen: {
                             noResultsText: '无法找到相关结果',
                             suggestedQueryText: '你可以尝试查询',
                             reportMissingResultsText: '你认为该查询应该有结果？',
-                            reportMissingResultsLinkText: '点击反馈'
-                        }
-                    }
-                }
-            }
+                            reportMissingResultsLinkText: '点击反馈',
+                        },
+                    },
+                },
+            },
         },
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',

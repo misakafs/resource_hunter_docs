@@ -1,9 +1,8 @@
 import type { Filter } from '../models'
 import config from '../config'
-import {request, g, base64Encode} from '../utils/index.ts'
+import { request, g, base64Encode } from '../utils/index.ts'
 
 const userAgent = ''
-
 
 // ---------------------------- QQ --------------------------
 
@@ -40,9 +39,10 @@ const getQQFilterByChannel = async (channel: string): Promise<Filter[][]> => {
         params: params,
         data: payload,
     })
-    
-    const paths = '$.data.module_list_datas[1].module_datas[0].item_data_lists.item_datas..[?(@.item_params.item_type=="11")].item_params'
-    
+
+    const paths =
+        '$.data.module_list_datas[1].module_datas[0].item_data_lists.item_datas..[?(@.item_params.item_type=="11")].item_params'
+
     const items = g<any[]>(result, paths)
 
     if (!items || !items.length) {
@@ -52,8 +52,7 @@ const getQQFilterByChannel = async (channel: string): Promise<Filter[][]> => {
     const filters: Filter[][] = []
     const fs: Filter[] = []
 
-    let level = "0"
-
+    let level = '0'
 
     for (let i = 0; i < items.length; i++) {
         if (items[i].level !== level) {
@@ -76,8 +75,7 @@ const getQQFilterByChannel = async (channel: string): Promise<Filter[][]> => {
     return filters
 }
 
-
-const handlerQQ = async ():Promise<void> => {
+const handlerQQ = async (): Promise<void> => {
     const filterMap: Record<string, Filter[][]> = {}
     for (const c of config.platforms.qq.channels) {
         const f = await getQQFilterByChannel(c.value)
@@ -87,22 +85,15 @@ const handlerQQ = async ():Promise<void> => {
     for (let i = 0; i < config.platforms.qq.channels.length; i++) {
         config.platforms.qq.channels[i].filter = filterMap[config.platforms.qq.channels[i].value] ?? []
     }
-
 }
 
 // ---------------------------- QQ --------------------------
 
-
-
-
 // ---------------------------- main --------------------------
-
 
 const main = async (): Promise<void> => {
     await handlerQQ()
     await Bun.write('./config/1', base64Encode(JSON.stringify(config)))
 }
-
-
 
 await main()

@@ -1,7 +1,7 @@
 import * as CryptoJS from 'crypto-js'
 import { parse, stringify } from 'yaml'
 import axios from 'axios'
-import * as jp from "jsonpathly";
+import * as jp from 'jsonpathly'
 
 export function base64Encode(data: string): string {
     return CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(data))

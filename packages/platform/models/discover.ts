@@ -1,5 +1,3 @@
-
-
 export interface DiscoverParam {
     size: number
     next: string

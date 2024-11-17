@@ -11,6 +11,17 @@
 }
 ```
 
+- 频道枚举值:
+
+```
+tv: 电视剧
+movie: 电影
+anime: 动漫
+variety: 综艺
+short: 短剧
+documentary: 纪录片
+```
+
 ### 响应结果
 
 ```json5
