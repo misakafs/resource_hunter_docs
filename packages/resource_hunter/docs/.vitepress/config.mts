@@ -4,7 +4,7 @@ const nav = (): DefaultTheme.NavItem[] => {
     return [
         { text: '指南', link: '/guide/define' },
         {
-            text: '平台',
+            text: '平台实现',
             items: [
                 {
                     text: '腾讯视频',

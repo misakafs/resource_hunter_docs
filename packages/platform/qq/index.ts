@@ -80,6 +80,10 @@ export class QQ extends Platform {
 
         const list = g<any[]>(result, itemJsonPath)
 
+        if (!list) {
+            return null
+        }
+
         const items = []
 
         list.forEach((value) => {
@@ -102,6 +106,79 @@ export class QQ extends Platform {
         }
     }
 
+
+    public async search(param: SearchParam): Promise<SearchResult | null> {
+        const headers = {
+            'Content-Type': 'application/json',
+            Referer: config.platforms.qq.referer,
+            Origin: config.platforms.qq.referer,
+            'User-Agent': this.userAgent,
+        }
+
+
+        const params = {
+            vplatform: 2,
+        }
+
+        const pageNum = param.next.length === 0 ? 0 : Number.parseInt(base64Decode(param.next))
+
+        const payload = {
+            version: config.platforms.qq.search.version,
+            query: param.keyword,
+            pagenum: pageNum,
+            pagesize: 30,
+            queryFrom: 0,
+            extraInfo: {
+                isNewMarkLabel: "1",
+                multi_terminal_pc: "1",
+            }
+        }
+
+        const result = await request({
+            method: config.platforms.qq.search.method,
+            url: config.platforms.qq.search.url,
+            headers: headers,
+            params: params,
+            data: payload,
+        })
+
+        if (!result?.data?.areaBoxList?.length) {
+            return null
+        }
+
+        const itemJsonPath = '$.data.areaBoxList[0].itemList.*'
+
+        const list = g<any[]>(result, itemJsonPath)
+
+        if (!list) {
+            return null
+        }
+
+        const items = []
+
+        list.forEach((value) => {
+            items.push({
+                sid: value.doc.id,
+                vid: '',
+                title: value.videoInfo.title,
+                metas: [
+                    value.videoInfo.subTitle,
+                    value.videoInfo.descrip,
+                ],
+                cht: '',
+                cvt: value.videoInfo.imgUrl,
+                link: `https://v.qq.com/x/cover/${value.doc.id}.html`,
+            })
+        })
+
+        return {
+            page: {
+                next: base64Encode((pageNum + 1) + '')
+            },
+            items: items,
+        }
+    }
+
     public async detail(param: DetailParam): Promise<DetailResult | null> {
         return null
     }
@@ -114,7 +191,4 @@ export class QQ extends Platform {
         return null
     }
 
-    public async search(param: SearchParam): Promise<SearchResult | null> {
-        return null
-    }
 }

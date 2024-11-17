@@ -38,6 +38,11 @@ export interface Config {
                 pageType: string
                 pageId: string
             }
+            search: {
+                method: string
+                url: string
+                version: string
+            }
         }
     }
 }
